@@ -1,0 +1,38 @@
+:root {
+    --mc-primary: #013d4e;
+    --mc-secondary: #008cb6;
+    --mc-success: #00da9d;
+    --mc-alert: #ffcf4e;
+    --mc-danger: #ff2f6c;
+    --mc-ligh: #fefffe;
+    --mc-dark: #000101;
+    --mc-shadow: #00000092;
+}
+
+body {
+    background-color: var(--mc-primary);
+}
+
+.box {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.ms-bg-secondary {
+    background-color: var(--mc-secondary);
+}
+
+.ms-bg-success {
+    background-color: var(--mc-success);
+}
+
+.ms-bg-alert {
+    background-color: var(--mc-alert);
+}
+
+.ms-bg-danger {
+    background-color: var(--mc-danger);
+}

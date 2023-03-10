@@ -22,7 +22,7 @@ for (let i = 0; i < 100; i++) {
             //console.log(number, "FizzBuzz");
             rowEl.innerHTML += `
             <div class="col-3 col-md-2 col-lg-1">
-                <div class="box text-center">
+                <div class="box text-center ms-bg-danger">
                     FizzBuzz
                 </div>
                 <!-- /.box -->
@@ -36,7 +36,7 @@ for (let i = 0; i < 100; i++) {
             //console.log(number, "Fizz");
             rowEl.innerHTML += `
             <div class="col-3 col-md-2 col-lg-1">
-                <div class="box text-center">
+                <div class="box text-center ms-bg-success">
                     Fizz
                 </div>
                 <!-- /.box -->
@@ -50,7 +50,7 @@ for (let i = 0; i < 100; i++) {
             //console.log(number, "Buzz");
             rowEl.innerHTML += `
             <div class="col-3 col-md-2 col-lg-1">
-                <div class="box text-center">
+                <div class="box text-center ms-bg-alert">
                     Buzz
                 </div>
                 <!-- /.box -->
@@ -64,7 +64,7 @@ for (let i = 0; i < 100; i++) {
             //console.log(number);
             rowEl.innerHTML += `
             <div class="col-3 col-md-2 col-lg-1">
-                <div class="box text-center">
+                <div class="box text-center ms-bg-secondary">
                     ${number}
                 </div>
                 <!-- /.box -->
